@@ -72,7 +72,7 @@ class WeekViewController: UIViewController, UITableViewDataSource, UITableViewDe
                 if error == nil {
                     if let location = placemarks?.first?.location {
                             Weather.forecast(wasCurrTapped: currentLocationGiven, longAndLat: longAndLat, withLocation: location.coordinate, completion: { (results:[Weather]?) in
-                            
+                            //hello
                             if let weatherData = results{
                                 self.forecastData = weatherData
                                 DispatchQueue.main.async {
