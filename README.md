@@ -1,4 +1,4 @@
-# weatherApp
+# BetterWeather
 Created a weather iOS app called BetterWeather. Presents Xcode, Swift, CoreLocation, and DarkSky API skills. Users can access weather information for the following week using current location or manual input.
 
 Better Weather is an iOS app that uses the DarkSky API and CoreLocation library. 
